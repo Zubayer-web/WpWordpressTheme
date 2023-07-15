@@ -1,0 +1,129 @@
+/*
+Theme Name: wp theme
+Theme URI: https://wordpress.org/themes/wp-theme/
+Author: jubayer hasan
+Author URI: https://jubayer.com/
+Description: Our 2022 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jubayer_theme
+Tags: wp-theme, one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready, block-patterns
+
+
+
+*/
+.topbar-frist{
+    width: 30%;
+    display: inline-block;
+}
+.topber-meddile{
+    width:60%;
+    display: inline-block;
+    text-align: right;
+}
+.topber-last{
+    width: 9%;
+    display: inline-block;
+    text-align: right;
+}
+#mainav .menu-item-has-children {
+    padding-left: 15px;
+  }
+#mainav .menu-item-has-children::after {
+    top: 35px;
+    left: 5px;
+}
+#mainav .menu-item-has-children::after, #mainav li li .menu-item-has-children::after {
+    content: "\f0d7";
+  }
+#mainav .menu-item-has-children::after, #mainav li li .menu-item-has-children::after, #breadcrumb li a::after, .sidebar nav a::after {
+    position: absolute;
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 10px;
+}
+.z-index{
+    position: relative;
+    z-index: 9999;
+}
+.container .sidebar {
+    margin-left: 0;
+  }
+  article a img {
+    width: 374px;
+    height: 225px;
+  }
+  .video-container .container{
+      padding: 0;
+  }
+  .tm-post-full {
+    max-width: 900px;
+  }
+  .tm-post-sidebar {
+    max-width: 380px;
+ 
+  }
+  .container_single{
+      max-width: 80%;
+      margin: auto;
+  }
+  .commentlist .children {
+    margin-left: 42px;
+  }
+  .cus_label {
+    display: inline-block;
+    width: 362px;
+  }
+  .cus_label label{
+    color: #099;
+    font-size: 20px;
+  }
+  label{
+    color: #099;
+    font-size: 20px;
+  }
+  .form-control_cus{
+    height: 100px;
+  }
+  .mb-4.rounded-circle img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  #author, #email {
+    width: 363px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid #09B6B6;
+    color: #111;
+    font-size: 16px;
+  } 
+  #title {
+    width: 752px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid #09B6B6;
+    color: #111;
+    font-size: 16px;
+  }
+  #comment {
+    width: 752px;
+    height: 155px;
+    border-radius: 5px;
+    border: 1px solid #09B6B6;
+    color: #111;
+    font-size: 16px;
+  } 
+  .custom-design {
+    width: 373px;
+    height: 261px;
+    padding: 5px 0px;
+  }
+  .custom-design img{
+    width: 100%;
+    height: 100%;
+  }
